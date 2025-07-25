@@ -1,0 +1,26 @@
+[
+  {
+    "user_id": 5066369296,
+    "message": "hello can you provide me service of the company",
+    "role": "user",
+    "timestamp": "2025-07-25 16:03:31"
+  },
+  {
+    "user_id": 5066369296,
+    "message": "Antos Pinnacles (AP) delivers professional trading-related services, including:\n\n* Brokerage\n* Trading\n* Clearing\n* Risk management solutions\n\nWe also provide cutting-edge trading infrastructure, access to deep liquidity, and secure trading tools for both individual and institutional clients. \n\nFor more detailed information on our services, I recommend visiting our official website or contacting our support team directly.",
+    "role": "bot",
+    "timestamp": "2025-07-25 16:03:34"
+  },
+  {
+    "user_id": 5066369296,
+    "message": "\ud83d\ude0b",
+    "role": "user",
+    "timestamp": "2025-07-25 16:03:41"
+  },
+  {
+    "user_id": 5066369296,
+    "message": "Antos Pinnacles (AP) offers several benefits, including:\n\n* Access to deep liquidity, enabling confident and efficient trading\n* Secure and accurate trading tools\n* A risk-free simulated trading environment with a Demo Account\n* A unique GAP Account for gold enthusiasts with 1:1 leverage and automated, grid-based trading strategy\n* Investor protection through the use of segregated accounts, keeping client capital protected and not co-mingled.\n\nFor more information on AP's services and support options, you can visit their website or start the registration process for a live trading account through the provided link. \n\nNo specific information is available on risk management solutions beyond segregated accounts.",
+    "role": "bot",
+    "timestamp": "2025-07-25 16:03:44"
+  }
+]

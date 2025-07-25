@@ -1,0 +1,11 @@
+python-dotenv
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+langchain-chroma
+sentence-transformers
+chromadb
+python-telegram-bot>=20.0
+fastapi
+uvicorn[standard]
