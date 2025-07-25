@@ -1,0 +1,27 @@
+## KYC (Know Your Customer) Verification Guide##
+1.Navigate to the Verification Page
+Log in to your AP CRM portal and go to the “Verification” section. You will see three components:
+•	Proof of Identity (POI)
+•	Proof of Residence (POR)
+•	Selfie Verification
+2. Proof of Identity (POI)
+•	Fill in your identifying information as shown on your document.
+•	Upload either:
+o	Both sides of your Identification Card (IC), or
+o	A valid Passport
+•	Ensure the details entered match the document exactly.
+3. Proof of Residence (POR)
+•	Enter your current residential address.
+•	Upload a supporting document that includes your full name and address. Accepted documents include:
+o	Utility bill (electricity, water, gas, landline)
+o	Bank statement
+Note: The document must be issued within the last 6 months.
+4. Selfie Verification
+•	Upload a clear photo of yourself holding your POI document.
+•	Your face must be fully visible, with no sunglasses, hats, or obstructions.
+5. Submit for Review
+•	After all documents are uploaded, click “Complete”.
+•	A confirmation email will be sent, and your KYC will be reviewed by our compliance team.
+6. Approval Notification
+•	Once approved, you will receive a confirmation email.
+•	Your Verification Page will show a green checkmark indicating successful KYC completion.

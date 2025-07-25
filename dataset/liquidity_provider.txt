@@ -1,0 +1,21 @@
+## Our Liquidity Provider
+Bank liquidity, which refers to a bank's ability to promptly meet short-term financial obligations such as customer withdrawals, debt settlements, interest payments, and maturing commitments, ensures financial system stability and market confidence. Our liquidity providers are Straits Financial and Broctagon.
+Straits Financial serves as a comprehensive financial services provider, offering brokerage, trading, clearing, and risk management solutions to its clients in the global financial markets.
+Broctagon is a financial technology (fintech) company that specializes in providing brokerage solutions and trading technology to retail brokerage firms globally. They aim to offer innovative premier brokerage solutions, including multi-asset liquidity and superior trading technology, to help brokerages attract clients, exceed performance expectations, and redefine industry standards.
+
+Segregated Accounts in Regulated LPs
+To ensure investor protection and regulatory compliance, client funds are maintained in segregated accounts with licensed liquidity providers.
+•	What is a Segregated Account?
+A segregated account is a dedicated account held by a financial institution for individual clients, ensuring their assets are kept separate from the company’s or other clients’ funds.
+•	Application in Limited Partnerships (LPs):
+Investment funds structured as LPs consist of:
+o	General Partners (GPs): Manage the fund
+o	Limited Partners (LPs): Invest capital and have limited liability
+Segregated accounts ensure LPs' funds are protected from GP liabilities or mismanagement.
+•	Regulatory Oversight:
+Regulatory authorities mandate the use of segregated accounts to:
+o	Ensure transparency and fund integrity
+o	Protect investor interests
+o	Uphold financial system trust
+•	Investor Protection:
+The use of segregated accounts offers investors peace of mind, knowing their capital is protected and not co-mingled, reducing exposure to operational risk.

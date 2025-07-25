@@ -1,0 +1,26 @@
+## Why choose Antos Pinnacles (AP)
+Regulatory Registration:
+AP is incorporated under the laws of Labuan F.T., Malaysia, with registration number LL16538, located at 1-23A, 1st Floor, Paragon, Jalan Tun Mustapha, 87008 Labuan F.T., Malaysia.
+Licensed Broker:
+AP holds a valid Labuan Money Broking License (MB/20/0053), regulated by the Labuan Financial Services Authority (Labuan FSA), which governs the financial services AP is authorized to provide.
+NFA Authorization:
+AP is authorized by the National Futures Association (NFA) with Certificate ID: 0560082.
+LEI Compliance:
+AP is LEI compliant, with LEI Code: 254900KTJ43CGSUHH022, issued by Bloomberg Finance LP. This satisfies global reporting requirements for regulators.
+Regulatory Environment
+Governed under Labuan IBFC Laws:
+AP operates within the Labuan International Business and Financial Centre (IBFC) — a midshore regulatory environment in the Asia-Pacific region.
+Comprehensive Legal Framework:
+Labuan FSA is empowered by eight statutory acts, offering a robust and transparent financial regulatory structure.
+Stringent Due Diligence Standards:
+Compliance requirements align with those of major global financial regulators, ensuring high standards of due diligence and client protection.
+Strategic Collaboration Hub:
+Labuan IBFC facilitates cooperation with licensed financial institutions to uphold regulatory and service excellence.
+Transparent Order Execution:
+As an STP broker, all trade executions are routed directly to liquidity providers, ensuring transparency and efficiency.
+## STP Route Process
+1. Loop Prevention: The primary purpose of STP is to prevent loops in network topologies. Loops can occur in networks with redundant paths, and if left unchecked, they can lead to broadcast storms and network congestion.
+2. Electing Root Bridge: In STP, one switch in the network is elected as the Root Bridge. All other switches in the network determine the best path to reach the Root Bridge, and this forms the spanning tree topology. The Root Bridge is the central point through which all traffic flows.
+3. Designating Ports: Once the Root Bridge is elected, each switch determines the best path to reach the Root Bridge and blocks all other paths. Ports that provide the best path to the Root Bridge are designated as forwarding ports, while other ports are placed in a blocking state.
+4. Backup Paths: While STP blocks redundant paths to prevent loops, it also ensures that backup paths are available. If a link or switch fails, STP recalculates the spanning tree and activates backup paths to maintain network connectivity.
+5. STP versions: There are several versions of STP, including the original IEEE 802.1D standard, as well as newer versions such as Rapid Spanning Tree Protocol (RSTP) and Multiple Spanning Tree Protocol (MSTP). RSTP provides faster convergence times compared to the original STP, and MSTP allows for multiple spanning trees within a single network, enabling better scalability and resource utilization.

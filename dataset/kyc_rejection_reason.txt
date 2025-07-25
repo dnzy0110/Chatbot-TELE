@@ -1,0 +1,12 @@
+KYC Rejection Reasons
+Your KYC may be rejected due to:
+•	Blurry or Low-Quality Documents
+Ensure text is readable and images are sharp before uploading. Resubmit if needed.
+•	Expired Documents
+Only submit currently valid IDs and address documents.
+•	Mismatched Information
+Name, date of birth, or address must exactly match the documents provided.
+•	Unsupported Document Types
+Only official government-issued IDs and acceptable address proofs are allowed.
+(E.g., student ID cards are not accepted.)
+Check the “Comment” section under your KYC request history to view the specific reason for rejection.

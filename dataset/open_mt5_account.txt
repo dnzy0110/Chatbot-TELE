@@ -1,0 +1,23 @@
+## Create Open new MT5 account ##
+1. Login to Your CRM Account
+Access your AP CRM portal via this link:
+👉 https://member.antospnc.ai/#/login
+2. Haven’t Registered Yet?
+If you don’t have an account, sign up here:
+👉 https://member.antospnc.ai/#/register?type=live&affiliate=ZED3teyv
+3. Complete KYC Verification
+Ensure your identity has been verified via the KYC process before proceeding. You must complete KYC before opening an MT5 account.
+4. Open a Trading Account
+•	Go to the “Self-Trade” section in the CRM.
+•	Click on the “Open Trading Account” button.
+5. Choose Product Type
+•	Under the Product dropdown, select your preferred trading product (e.g., Standard, ECN, GAP, etc.).
+6.  Set Account Preferences
+•	Choose your desired leverage.
+•	Enter your initial deposit amount (must be greater than the minimum required).
+•	Click Submit to proceed.
+7. View New Trading Account
+•	Once submitted, your new MT5 account will appear under the Self-Trade page with the selected product label.
+8. Check Email for Login Details
+•	Your MT5 login credentials will be sent to your registered email address.
+•	Please check both your inbox and spam/junk folder for an email from support@antospnc.ai.

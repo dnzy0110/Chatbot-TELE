@@ -1,0 +1,7 @@
+## Account Types
+- **Standard Account**: A user-friendly account ideal for most traders. It features no trading commission and floating spreads, making it suitable for discretionary and swing trading.
+- **ECN Account**: Designed for advanced or institutional traders, this account offers raw spreads with direct market access and charges a small commission per trade. It provides faster execution and higher pricing transparency.
+- **Demo Account**: A risk-free simulated trading environment where clients can practice using real-time market data. Ideal for beginners or strategy testing without financial exposure.
+- **GAP Account**: A unique account designed for gold enthusiasts. It uses 1:1 leverage and deploys an automated, grid-based trading strategy on gold (XAUUSD). Clients have the option to redeem their profits as physical gold anytime.
+- **Plus100 Account**: A copy trading-enabled account that integrates with our state-of-the-art strategy platform. It allows clients to mirror top-performing strategies seamlessly and manage positions transparently in real time.
+

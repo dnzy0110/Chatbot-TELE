@@ -1,0 +1,15 @@
+## Register / Sign Up AP account ##
+To open a live trading account with Antos Pinnacles (AP), please follow the steps below:
+1.	Start Registration:
+Visit the following link to begin the sign-up process:
+👉 https://member.antospnc.ai/#/register?type=live&affiliate=ZED3teyv
+2.	Fill Out Personal Information:
+Complete all required fields, including your name, contact details, and email. Ensure all information is accurate.
+3.	Accept Terms and Conditions:
+Tick the checkbox to confirm that you agree to AP’s Terms and Conditions.
+4.	Submit Your Application:
+Once all information is provided, click the "Agree & Continue" button to proceed.
+5.	Verify Your Email Address:
+A verification email will be sent to your registered email address. Please check your inbox (or spam folder) for an email from support@antospnc.ai with the subject “Verify Your Email Address.”
+6.	Complete Email Verification:
+Open the email and click the "Verify Email Address" button. Once verified, your account will be activated and ready for login.
