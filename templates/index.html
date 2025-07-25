@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Antos AI Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            margin: 0;
+        }
+
+        #chat-box {
+            width: 90%;
+            max-width: 1000px;
+            height: 500px;
+            overflow-y: auto;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .msg {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .user {
+            color: #2980b9;
+        }
+
+        .bot {
+            color: #27ae60;
+        }
+
+        .image-preview {
+            max-width: 100%;
+            max-height: 300px;
+            width: auto;
+            height: auto;
+            margin: 10px 5px;
+            border-radius: 8px;
+            display: block;
+        }
+
+        #input-box {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto 30px;
+            display: flex;
+            gap: 10px;
+        }
+
+        #message {
+            flex: 1;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #2ecc71;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>💼 Antos Pinnacles AI Assistant</h2>
+
+    <div id="chat-box"></div>
+
+    <div id="input-box">
+        <input type="text" id="message" placeholder="Type your question..." autocomplete="off" />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById("chat-box");
+
+        function appendMessage(sender, text) {
+            if (!text) return;  // don't append empty messages
+            const msgDiv = document.createElement("div");
+            msgDiv.className = "msg " + sender;
+            msgDiv.innerText = (sender === "user" ? "🧑 You: " : "🤖 AI: ") + text;
+            chatBox.appendChild(msgDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function appendImages(images) {
+            images.forEach(url => {
+                const img = document.createElement("img");
+                img.src = url;
+                img.className = "image-preview";
+                chatBox.appendChild(img);
+                chatBox.scrollTop = chatBox.scrollHeight;
+            });
+        }
+
+        function sendMessage() {
+            const input = document.getElementById("message");
+            const message = input.value.trim();
+            if (!message) return;
+
+            appendMessage("user", message);
+            input.value = "";
+
+            fetch("/ask", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message })
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.response) appendMessage("bot", data.response);
+                if (data.images) appendImages(data.images);
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                appendMessage("bot", "❌ Something went wrong.");
+            });
+        }
+
+        // Send message on Enter key
+        document.getElementById("message").addEventListener("keypress", function (e) {
+            if (e.key === "Enter") sendMessage();
+        });
+    </script>
+</body>
+</html>

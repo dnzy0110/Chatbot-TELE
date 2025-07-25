@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Logs</title>
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        input[type="text"] { padding: 6px; width: 300px; }
+        button { padding: 6px 12px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; vertical-align: top; }
+        th { background-color: #f2f2f2; }
+        td.message { max-width: 400px; word-wrap: break-word; white-space: pre-wrap; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h2>Chat History</h2>
+    <form method="get" action="/chatlogs">
+        <input type="text" name="query" value="{{ query }}" placeholder="Search by keyword or user ID...">
+        <button type="submit">Search</button>
+    </form>
+
+    {% if logs %}
+    <table>
+        <tr>
+            <th>User ID</th>
+            <th>User Message</th>
+            <th>Bot Response</th>
+            <th>Timestamp</th>
+        </tr>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log.user_id }}</td>
+            <td class="message">{{ log.user_message }}</td>
+            <td class="message">{{ log.bot_response }}</td>
+            <td>{{ log.timestamp }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p>No matching chat logs found.</p>
+    {% endif %}
+</body>
+</html>
